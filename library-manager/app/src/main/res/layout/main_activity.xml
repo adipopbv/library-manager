@@ -15,28 +15,38 @@
             android:layout_height="?attr/actionBarSize">
 
             <ImageView
+                android:id="@+id/logo_on_bar"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:contentDescription="@string/app_logo"
                 android:src="@drawable/ic_baseline_menu_book_24"
-                tools:ignore="SpeakableTextPresentCheck">
-
-            </ImageView>
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <TextView
+                android:id="@+id/title_on_bar"
+                style="@style/TitleText"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginHorizontal="15dp"
                 android:paddingHorizontal="15dp"
                 android:text="@string/app_name"
-                android:textSize="27sp">
+                android:textSize="27sp" />
 
-            </TextView>
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
+    <ListView
+        android:id="@+id/books_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="70dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <include layout="@layout/add_book_panel"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_button"
+        android:id="@+id/add_book_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"

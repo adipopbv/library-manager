@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_marginHorizontal">25dp</item>
+        <item name="android:background">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="BookListItem">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+
+    <style name="ImportantText">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="AddBookPanel">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+</resources>

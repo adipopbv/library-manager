@@ -3,15 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../../../../../layout/custom_preview.xml" value="0.3140625" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/drawable/ic_book_open_variant.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_checkbox_marked_circle.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_chevron_down.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_close_circle.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout-v31/book_list_item.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/add_book_panel.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/add_button.xml" value="0.9" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.28489583333333335" />
-        <entry key="app/src/main/res/layout/main_activity.xml" value="0.2617753623188406" />
+        <entry key="app/src/main/res/layout/book_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/main_activity.xml" value="0.26358695652173914" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.30104166666666665" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.30104166666666665" />
       </map>
@@ -22,5 +32,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
   </component>
 </project>
