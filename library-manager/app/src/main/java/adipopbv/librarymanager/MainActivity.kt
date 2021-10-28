@@ -2,6 +2,7 @@ package adipopbv.librarymanager
 
 import adipopbv.librarymanager.domain.Book
 import adipopbv.librarymanager.utils.BookListAdapter
+import android.content.res.Resources
 import android.os.Bundle
 import android.view.View.GONE
 import android.view.View.VISIBLE

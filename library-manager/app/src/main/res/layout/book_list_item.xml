@@ -7,8 +7,9 @@
 
     <androidx.cardview.widget.CardView
         style="@style/BookListItem"
+        android:id="@+id/book_card"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="80dp"
         android:layout_marginHorizontal="15dp"
         android:layout_marginVertical="10dp"
         app:cardCornerRadius="5dp"
