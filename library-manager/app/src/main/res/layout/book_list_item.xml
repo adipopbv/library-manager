@@ -37,8 +37,10 @@
                     android:layout_height="50dp"
                     android:layout_margin="15dp"
                     android:paddingHorizontal="15dp"
-                    android:text="TITLE"
+                    android:text="TITLE THAT IS VERY LONG"
                     android:textSize="35sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
