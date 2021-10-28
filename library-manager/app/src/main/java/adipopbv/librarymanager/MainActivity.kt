@@ -43,7 +43,8 @@ class MainActivity : AppCompatActivity() {
                 480,
                 2014,
                 "Editura Arthur",
-                "Fantasy",
+                "fantasy",
+                "novel",
                 "Nimeni",
                 "Adi's room"
             ))
@@ -60,21 +61,23 @@ class MainActivity : AppCompatActivity() {
                 736,
                 2019,
                 "Nemira",
-                "Science-Fiction",
+                "science-fiction",
+                "novel",
                 "Calin",
                 "Adi's room"
             ),
             Book(
-                "Ceva",
-                "Cineva",
-                "Careva",
-                2,
+                "Short introduction to Kotlin",
+                "Some Guy",
+                "Kotlin",
+                1,
                 100,
                 1990,
-                "Nu stiu",
-                "Manual de Informatica",
-                "Nimeni",
-                "Nicaieri"
+                "InfoTime",
+                "programming",
+                "manual",
+                "No one",
+                "Nowhere"
             )
         )
         adapter = BookListAdapter(this, booksList)

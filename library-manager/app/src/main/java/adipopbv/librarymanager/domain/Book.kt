@@ -9,6 +9,7 @@ class Book(
     var publicationYear: Int,
     var publisher: String,
     var genre: String,
+    var type: String,
     var currentReader: String,
     var location: String
 )
