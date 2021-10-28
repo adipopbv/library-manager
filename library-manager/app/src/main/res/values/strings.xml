@@ -4,4 +4,7 @@
     <string name="add_button">Add a new book</string>
     <string name="delete_button">Delete the book</string>
     <string name="expand_button">Expand book details</string>
+    <string name="add_a_new_book_to_the_library_text">Add a new book to the library</string>
+    <string name="accept_button">Accept</string>
+    <string name="cancel_button">Cancel</string>
 </resources>

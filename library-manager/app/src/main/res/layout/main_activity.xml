@@ -43,6 +43,8 @@
         android:layout_marginTop="70dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <include layout="@layout/add_book_panel"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_book_button"
         android:layout_width="wrap_content"
